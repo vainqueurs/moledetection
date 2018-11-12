@@ -17,7 +17,6 @@ from clarifai.rest import ClarifaiApp
 from clarifai.rest import Image as ClImage
 
 
-%matplotlib inline
 class DeepMole(object):
 
 def __init__(self):
