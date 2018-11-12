@@ -23,7 +23,7 @@ class DeepMole(object):
 def __init__(self):
     self.PATH= "C:/data/CXO/ISIC-images"
     self.names=['Benign','Malignant']
-    self.app = ClarifaiApp(api_key='dedef7a36f4944438d324ea6722f05b4')
+    self.app = ClarifaiApp(api_key=key)
     self.model = self.app.models.get("general-v1.3")
     #self.errors =self.PATH+'/errorfile.csv'
 
