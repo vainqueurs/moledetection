@@ -38,7 +38,7 @@ def returntags(self,filename='',url='',returned=10):
         im = plt.imread('clar2.jpg')
     for index in range(returned):
         print a['outputs'][0]['data']['concepts'][index]['name'], a['outputs'][0]['data']['concepts'][index]['value']
-    plt.imshow(im)
+  
 
 
 def writeimages(self,counts=20):
